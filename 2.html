@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    .circle{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background-color: blue;
+        animation: circle 5s ease-in infinite;
+    }
+    @keyframes circle{
+        0%{
+            background-color: aquamarine;
+            transform: scale(1);
+        }
+        33%{
+            background-color: brown;
+            transform: scale(1.66);
+        }
+        66%{
+            background-color: blanchedalmond;
+            transform: scale(2);
+        }
+        100%{
+            background-color: tomato;
+            transform: scale(1);
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>Circle</h1>
+    <div class="circle"></div>
+</body>
+</html>
